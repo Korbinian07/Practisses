@@ -1,11 +1,11 @@
 class JonBohn {
     public static void main(String[] args) {
-        int temp;
-        int final1 = 0;
-        int final2 = 0;
+        long temp;
+        long final1 = 0;
+        long final2 = 0;
         boolean theend = false;
 
-        for (int i = 100; i > 1; i = i - 1) {
+        for (long i = 100000; i > 1; i = i - 1) {
             System.out.println ("start: " + i + " ");
             temp = i;
             theend = false;
